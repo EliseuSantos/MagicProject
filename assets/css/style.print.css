@@ -1,0 +1,141 @@
+.panel {
+	margin-left: -65px !important;
+}
+
+.row {
+	display:block !important;
+}
+.btatendido {
+	border-color: #5cb85c;
+}
+
+.btaguardando {
+	border-color: #8f328f;
+}
+
+.btpreferencial {
+	border-color: #f0ad4e;
+}
+
+.btematendimento {
+	border-color: #428bca;
+}
+
+.btdesistiu {
+	border-color: #B8B8B8;
+}
+
+.btconfirmado {
+	border-color: #b0a5ff;
+}
+
+.btsemstatus {
+	border-color: #333;
+}
+
+.dtvigencia-vencida {
+	display: none !important;
+}
+
+.ordem {
+	display: none !important;
+}
+
+.encaixe {
+	display: none !important;
+}
+
+.teste {
+	font-size: 13px;
+}
+
+#eventos-ag {
+	display: block !important;
+}
+
+.total-print {
+		display: block !important;
+}
+
+.partial-navigation {
+	display: none !important;
+}
+
+.config-agenda{
+	display: none !important;
+}
+
+.panel, .panel-default{
+	margin-left: 5px !important;
+	/*width: 100% !important;*/
+/*height: 450px !important;*/
+}
+
+#wrapper {
+	width: 100% !important;
+}
+
+.calendarCenter {
+	display: none !important;
+}
+
+.status{
+	display: none !important;
+}
+
+.search-form{
+	display: none;
+}
+
+.legenda {
+	display: none !important;	
+}
+
+.nav-prof {
+	display: block !important;
+	border: none !important;
+	margin-bottom: 10px !important;
+}
+
+.desc-profagenda {
+	font-size: 13px !important;
+}
+
+.desc-profagenda label span {
+	font-size: 11px !important;
+}
+
+.navbar {
+	min-height: 40px !important;
+	border-radius: 4px;
+}
+/*Modo Retrato*/
+@media all and (orientation:portrait) {
+	#page-wrapper {
+		margin-left: 8px !important;
+	}
+	.mediaprint {
+		display: block !important;
+		width: 685px !important;
+		margin-left: 9px;
+		margin-top: -22px !important;
+		margin-bottom: 10px !important;
+	}
+	.navbar {
+		min-height: 20px !important;
+		height: 20px !important;
+		border-radius: 4px;
+	}
+}
+/*Modo Paisagem*/
+@media all and (orientation:landscape) {
+	.mediaprint {
+		display: block !important;
+		width: 100% !important;
+		margin-top: -22px !important;
+		margin-bottom: 10px !important;
+	}
+	#page-wrapper {
+		margin-left: 8px !important;
+	}
+}

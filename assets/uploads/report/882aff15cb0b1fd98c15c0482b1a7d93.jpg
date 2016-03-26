@@ -1,0 +1,234 @@
+<html data-scroll-x="0" data-scroll-y="106.36363405826668" style="pointer-events: none; overflow: hidden; -webkit-user-select: none;"><head><base href="http://localhost:8080">
+    <link href="http://localhost:8080/trello/assets/img/favlogo.png" rel="shortcut icon" type="image/png">
+    <title>Web</title>
+          <link rel="stylesheet" href="http://localhost:8080/trello/assets/css/../bootstrap-3.3.2-dist/css/bootstrap.min.css?t=1451959070">
+          <link rel="stylesheet" href="http://localhost:8080/trello/assets/css/../font-awesome/font-awesome.css?t=1451959070">
+          <link rel="stylesheet" href="http://localhost:8080/trello/assets/css/style.css?t=1451959070">
+          <link rel="stylesheet" href="http://localhost:8080/trello/assets/css/profile.css?t=1451959070">
+          <link rel="stylesheet" href="http://localhost:8080/trello/assets/css/chart.css?t=1451959070">
+              <link rel="stylesheet" media="print" href="http://localhost:8080/trello/assets/css/style.print.css?t=1451959070">
+        </head>
+<body><div class="nav-top">
+<button type="button" class="btn btn-default menu-top-left"><span class="glyphicon glyphicon-plus"></span> Novo Chamado</button>
+<ul class="menu-top">
+  <li id="liNotificacao">
+    <!-- <div id="linkNotifica"> -->
+    <span id="contadorNotificacao">3</span>
+    <span id="notificationLink" class="glyphicon glyphicon-globe"></span>
+    <div id="conteudoNotificacao" style="display: none;">
+      <div id="tituloNotificacao">
+      <span class="pull-left"><strong>Notificações</strong></span>
+      <a class="pull-right">Marcar todas como lidas</a>
+      </div>
+      <div id="corpoNotificacao" class="notifications"></div>
+      <div id="rodapeNotificacao">
+        <a href="#">Ver Todas</a>
+      </div>
+    </div>
+    <!-- </div> -->
+  </li>
+  <li><span class="glyphicon glyphicon-cog"></span></li>
+  <li><span class="glyphicon glyphicon-cog"></span></li>
+  <li><span class="glyphicon glyphicon-cog"></span></li>
+  <li><span class="glyphicon glyphicon-cog"></span></li>
+  <li><span class="glyphicon glyphicon-off"></span></li>
+</ul>
+</div>
+<ul class="cbp-vimenu">
+  <li><a href="#" class="icon-logo"></a></li>
+  <li><a href="home" class="icon-archive"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+  <li><a href="chamados" class="icon-search"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></a></li>
+  <li><a href="equipes" class="icon-pencil"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>
+  <li><a href="#" class="icon-archive"><span class="glyphicon glyphicon-th" aria-hidden="true"></span></a></li>
+  <li><a href="#" class="icon-search"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></a></li>
+  <li><a href="#" class="icon-pencil"><span class="glyphicon glyphicon-cloud" aria-hidden="true"></span></a></li>
+</ul>   <div class="content-marged">
+     <!-- <div class="card">
+      <div class="panel widgett">
+        <div class="half-float">
+          <div class="imgBackground bg-success" alt="" class="img-responsive"></div>
+          <div class="half-float-bottom">
+            <img src="assets/img/logo.png" alt="Image" class="img-thumbnail img-circle thumb128">
+          </div>
+        </div>
+        <div class="panel-body text-center">
+          <h3 class="m0">Box</h3>
+          <p class="text-muted">Sistema blzblzblz</p>
+          <p>Proin metus justo, commodo in ultrices at, lobortis sit amet dui. Fusce dolor purus, adipiscing a tempus at, gravida vel purus.</p>
+        </div>
+        <div class="panel-body text-center bg-gray-dark">
+          <div class="row row-table">
+            <div class="col-xs-4">
+              <h3 class="m0">400</h3>
+              <p class="m0">Chamados</p>
+            </div>
+            <div class="col-xs-4">
+              <h3 class="m0">2000</h3>
+              <p class="m0">Retorno</p>
+            </div>
+            <div class="col-xs-4">
+              <h3 class="m0">500</h3>
+              <p class="m0">Encaminhamentos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+
+
+    <!-- <div class="alert alert-info">
+      <div class="media">
+        <span class="glyphicon glyphicon-info-sign pull-left"></span>
+        <div class="media-body">
+          <h3 class="media-heading">How about an alert with a form?</h3>
+          <label>What's your email address?</label>
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="your@yours.com">
+            <span class="input-group-btn">
+              <button class="btn btn-primary" type="button">Submit</button>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div> -->
+
+
+    <div class="row">
+    <div class="col-lg-12">
+        <h3 class="border-bottom">Projetos</h3>
+        <div class="alert alert-success alert-dismissable">
+        <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+      Use this boxes to fill your dashboard. You can load number of users, activities, logs, Bootstrap 3, Html, Css, Js, etc...
+    </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-3">
+        <div class="panel panel-default ">
+            <div class="panel-body bg-danger panel-content">
+                <div class="col-xs-5">
+                    <i class="fa fa-twitter fa-5x"></i>
+                </div>
+                <div class="col-xs-5 text-right">
+                    <i class="fa fa-arrow-circle-right"></i>
+                    <p class="alerts-heading tex">1200</p>
+                    <p class="alerts-text tex">Followers</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="panel panel-default ">
+            <div class="panel-body panel-fb panel-content">
+                <div class="col-xs-5">
+                    <i class="fa fa-facebook fa-5x"></i>
+                </div>
+                <div class="col-xs-5 text-right">
+                    <i class="fa fa-arrow-circle-right"></i>
+                    <p class="alerts-heading tex ">1234</p>
+                    <p class="alerts-text tex">likes</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="panel panel-default ">
+            <div class="panel-body panel-in panel-content">
+                <div class="col-xs-5">
+                    <i class="fa fa-money fa-5x"></i>
+                </div>
+                <div class="col-xs-5 text-right">
+                    <i class="fa fa-arrow-circle-right"></i>
+                    <p class="alerts-heading tex">800</p>
+                    <p class="alerts-text tex">Income</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="panel panel-default ">
+            <div class="panel-body panel-dl panel-content">
+                <div class="col-xs-5">
+                    <i class="fa fa-download fa-5x"></i>
+                </div>
+                <div class="col-xs-5 text-right">
+                    <i class="fa fa-arrow-circle-right"></i>
+                    <p class="alerts-heading tex">2000</p>
+                    <p class="alerts-text tex">Downloads</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    <script src="http://localhost:8080/trello/assets/js/jquery-1.11.2.min.js?t=1451959070"></script>
+    <script src="http://localhost:8080/trello/assets/js/../bootstrap-3.3.2-dist/js/bootstrap.min.js?t=1451959070"></script>
+    <script src="http://localhost:8080/trello/assets/js/gitAPI.js?t=1451959070"></script>
+    <script src="http://localhost:8080/trello/assets/js/firebug1.js?t=1451959070"></script>
+    <script src="http://localhost:8080/trello/assets/js/trello.js?t=1451959070"></script>
+    <script src="http://localhost:8080/trello/assets/js/home.js?t=1451959070"></script>
+
+  <input type="file" id="teste">
+  <div class="feedback left">
+  <div class="tooltips">
+    <div class="btn-group dropup open">
+      <button type="button" class="btn btn-primary dropdown-toggle btn-reporte btn-lg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <i class="fa fa-bug fa-2x" title="Report Bug"></i>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-right dropdown-menu-form">
+        <li>
+          <div class="report">
+            <h5 class="text-center">Reportar Bug</h5>
+            <form>
+              <div class="col-sm-12">
+                <input type="text" id="titulo-reporte" class="form-control" placeholder="Titulo do Reporte" value="">
+                <textarea required="" class="form-control" placeholder="É a seguinte situação descreva a situação encontrada de forma simples e direta caso contrário será difícil resolver"></textarea>
+                <input name="printScreen" type="hidden" class="screen-uri">
+                <span class="printScreen pull-right"><i class="fa fa-camera cam" title="Tirar Print"></i></span>
+               </div>
+               <div class="col-sm-12 clearfix">
+                <button id="reportar" class="btn btn-primary btn-block">Enviar Reporte</button>
+               </div>
+           </form>
+          </div>
+          <div class="loading text-center hide">
+            <h2>Aguarde...</h2>
+            <h2><i class="fa fa-refresh fa-spin"></i></h2>
+          </div>
+          <div class="report text-center hide">
+            <h2>Concluido!</h2>
+            <p>Seu reporte foi enviado com sucesso, obrigado por ajudar a fazer um sistema melhor e sem bugs. Vou corrigir SÓ DE RAIVA.......</p>
+             <div class="col-sm-12 clearfix">
+                <button class="btn btn-success btn-block do-close">Close</button>
+             </div>
+          </div>
+          <div class="falha text-center hide">
+            <h2>Erro!</h2>
+            <p>Não foi possível concluir seu reporte.<br><br><a href="mailto:s.eliseu.santos@gmail.com">Enviar Email.</a></p>
+             <div class="col-sm-12 clearfix">
+                <button class="btn btn-danger btn-block do-close">Fechar</button>
+             </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+      </div>
+    </div>
+  
+  <script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function() {
+    var camera = new fireBug({
+      'seletor' : '#reportar',
+      'url' : 'report/uploadFoto',
+      'callback' : 'funcaoCalback'
+    });
+  });
+  </script>
+
+</div><script>(function (data) {
+  window.addEventListener('DOMContentLoaded', function (e) {
+      var scrollX = document.documentElement.dataset.scrollX || 0;
+      var scrollY = document.documentElement.dataset.scrollY || 0;
+      window.scrollTo(scrollX, scrollY);
+  });
+})();</script></body></html>
